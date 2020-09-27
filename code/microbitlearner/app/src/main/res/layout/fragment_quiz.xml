@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/questionTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/text_margin"
+                    android:text="@string/question_goes_here"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/quizfrag_question_text_size" />
+
+                <EditText
+                    android:id="@+id/answerTextEdt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/enter_your_answer"
+                    android:inputType="textPersonName"
+                    android:textColorHighlight="@color/colorPrimaryDark"
+                    android:textColorLink="@color/colorPrimaryDark"
+                    android:textSize="@dimen/answer_text_size" />
+
+                <EditText
+                    android:id="@+id/answerNumberEdt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/enter_your_answer"
+                    android:inputType="number"
+                    android:textColorHighlight="@color/colorPrimaryDark"
+                    android:textColorLink="@color/colorPrimaryDark"
+                    android:textSize="@dimen/answer_text_size"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/subButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0dp"
+                    android:padding="@dimen/button_padding"
+                    android:text="@string/submit"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/button_text_size" />
+
+                <Button
+                    android:id="@+id/doneBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/button_padding"
+                    android:text="@string/done"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/button_text_size"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/hintBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/button_padding"
+                    android:text="@string/need_a_hint"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/button_text_size"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/hintTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:padding="@dimen/hint_padding"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/hint_text_size"
+                    android:visibility="gone"
+                    tools:text="@string/topic1_q1_hint" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <data>
+
+        <variable
+            name="game"
+            type="com.example.microbitlearner.QuizFragment" />
+    </data>
+
+</layout>

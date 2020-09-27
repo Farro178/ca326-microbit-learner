@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "272738680489",
+    "firebase_url": "https://microbit-learner.firebaseio.com",
+    "project_id": "microbit-learner",
+    "storage_bucket": "microbit-learner.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272738680489:android:04cedbf25ca23f09c973b8",
+        "android_client_info": {
+          "package_name": "com.example.microbitlearner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "272738680489-14t7m07hrk83eq03ss102jph4l11dj2k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.microbitlearner",
+            "certificate_hash": "e24e21ec299cd88fa24a6623230db93dd6fd857b"
+          }
+        },
+        {
+          "client_id": "272738680489-7eemopeo77sur7hlhu8re6kp2mn9aq5g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsiECtc9UNQNqH5rVKUeq1vO98zZLzuy8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "272738680489-7eemopeo77sur7hlhu8re6kp2mn9aq5g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

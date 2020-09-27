@@ -1,0 +1,117 @@
+{
+  "CodeRandomError" : [ {
+    "snippet" : "from microbit import *\n\nwhile True:\n    display.show(Image.HAPPY)"
+  }, {
+    "snippet" : "from​ microbit import​ *\n\ndisplay.​scroll(\"Hello, World!\")"
+  }, {
+    "snippet" : "from microbit import *\n\nwhile True:\n    display.show(Image.HEART)\n    sleep(2000)"
+  }, {
+    "snippet" : "from microbit import *\n\nwhile True:\n  if​ pin0.​is_touched():\n    display.​show(Image.​HAPPY)\n  else​:\n    display.​scroll(\"Press the button\")"
+  }, {
+    "snippet" : "from​ microbit import​ *\n\nwhile​ True​:\n  if​ pin0.​is_touched():\n    display.​show(Image.​HAPPY)\n  else​:\n    display.​show(Image.​SAD)"
+  }, {
+    "snippet" : "from​ microbit import​ *\n\ncompass.​calibrate()\nwhile​ True​:\n  x = compass.get_x()\n  print(\"x reading: \", x)\n  sleep(500)"
+  }, {
+    "snippet" : "from​ microbit import​ *\n\nimport​ random\nif​ button_a.​was_pressed():  \n  display.​show(str(random.​randint(1, 6)))"
+  }, {
+    "snippet" : "from microbit import *\n\nwhile​ True​:\n  incoming =​ radio.​receive()\n  if​ incoming is​ not​ None​:\n    display.​show(incoming)\n    sleep(500)"
+  } ],
+  "CodeSnippetTemplates" : [ {
+    "question" : "Which string is displayed?",
+    "snippet" : "from microbit import *\n\ndisplay.scroll()"
+  }, {
+    "question" : "Which image is displayed?",
+    "snippet" : "from microbit import *\n\ndisplay.show(Image.)"
+  }, {
+    "question" : "Which string is displayed?",
+    "snippet" : "from microbit import *\n\nx = \ndisplay.scroll(x)"
+  }, {
+    "question" : "What is the range numbers that could be displayed?",
+    "snippet" : "from microbit import *\nimport random\n\ndisplay.show(str(random.randint()))"
+  }, {
+    "question" : "How many times will this loop iterate (run)?",
+    "snippet" : "i = 0\nwhile i < :\n  i = i + 1"
+  }, {
+    "question" : "Which image is displayed if pin 0 is touched?",
+    "snippet" : "from microbit import *\n\nwhile True:\n  if pin0.is_touched():\n    display.show(Image.)"
+  }, {
+    "question" : "Which image is displayed if pin 0 is touched?",
+    "snippet" : "from microbit import *\n\nwhile True:\n  if pin0.is_touched():\n    display.show(Image.)\n  else:\n    display.show(Image.)"
+  }, {
+    "question" : "Which number is displayed if button A is pressed?",
+    "snippet" : "from microbit import *\n\nwhile True:\n  if button_a.was_pressed():\n    display.show(str(len()))"
+  }, {
+    "question" : "How many times will this loop iterate (run)?",
+    "snippet" : "i = 0\nwhile i < :\n  i += 1"
+  }, {
+    "question" : "What is the value of i when this program is finished?",
+    "snippet" : "i = 0\nwhile i < :\n  i += 1"
+  }, {
+    "question" : "Which image is displayed if pin 0 is not touched?",
+    "snippet" : "from microbit import *\n\nwhile True:\n  if pin0.is_touched():\n    display.show(Image.)\n  else:\n    display.show(Image.)"
+  }, {
+    "question" : "Which number is displayed if button B is pressed?",
+    "snippet" : "from microbit import *\n\ny = \nif button_b.was_pressed():\n  y = \n  display.show(str(y))\nelse:\n  display.show(str(y))"
+  }, {
+    "question" : "Which number is displayed if button B is not pressed?",
+    "snippet" : "from microbit import *\n\ny = \nif button_b.was_pressed():\n  y = \n  display.show(str(y))\nelse:\n  display.show(str(y))"
+  }, {
+    "question" : "How many seconds will this program sleep for?",
+    "snippet" : "from microbit import *\n\nwhile True:\n  sleep()\n  display.show(Image.CLOCK1)"
+  }, {
+    "question" : "How many times will this loop iterate (run)?",
+    "snippet" : "i = \nwhile i < :\n  i += 1"
+  }, {
+    "question" : "How many times will this loop iterate (run)?",
+    "snippet" : "i = \nwhile i < :\n  i += 2"
+  }, {
+    "question" : "How many times will this loop iterate (run)?",
+    "snippet" : "i = \nwhile i < :\n  i += 3"
+  }, {
+    "question" : "How many times will this loop iterate (run)?",
+    "snippet" : "i = \nwhile i > 0:\n  i -= 1"
+  }, {
+    "question" : "How many times will this loop iterate (run)?",
+    "snippet" : "i = \nwhile i <= :\n  i += 1"
+  } ],
+  "Errors" : [ "SyntaxError", "IndexError", "ImportError", "TypeError", "ValueError", "NameError", "IndentationError", "No Error" ],
+  "Images" : [ "HEART", "HEART_SMALL", "HAPPY", "SMILE", "SAD", "CONFUSED", "ANGRY", "ASLEEP", "SURPRISED", "SILLY", "FABULOUS", "MEH", "YES", "NO", "CLOCK12", "CLOCK11", "CLOCK10", "CLOCK9", "CLOCK8", "CLOCK7", "CLOCK6", "CLOCK5", "CLOCK4", "CLOCK3", "CLOCK2", "CLOCK1", "ARROW_N", "ARROW_NE", "ARROW_E", "ARROW_SE", "ARROW_S", "ARROW_SW", "ARROW_W", "ARROW_NW", "TRIANGLE", "TRIANGLE_LEFT", "CHESSBOARD", "DIAMOND", "DIAMOND_SMALL", "SQUARE", "SQUARE_SMALL", "RABBIT", "COW", "MUSIC_CROTCHET", "MUSIC_QUAVER", "MUSIC_QUAVERS", "PITCHFORK", "XMAS", "PACMAN", "TARGET", "TSHIRT", "ROLLERSKATE", "DUCK", "HOUSE", "TORTOISE", "BUTTERFLY", "STICKFIGURE", "GHOST", "SWORD", "GIRAFFE", "SKULL", "UMBRELLA", "SNAKE" ],
+  "Questions" : [ {
+    "answer" : "qwerty",
+    "hint" : "It's a string",
+    "option1" : "AttributeError",
+    "option2" : "None",
+    "option3" : "[\"qwerty\"]",
+    "option4" : "qwerty",
+    "option5" : "SyntaxError",
+    "option6" : "[\"q\", \"w\", \"e\", \"r\", \"t\", \"y\"]",
+    "option7" : "q w e r t y",
+    "option8" : "\"\"",
+    "question" : "What is the output of the following code snippet?\n\nlist = [\"q\", \"w\", \"e\", \"r\", \"t\", \"y\"]\nprint(\"\".join(list))"
+  }, {
+    "answer" : "2.5",
+    "hint" : "The output is a float",
+    "option1" : "SyntaxError",
+    "option2" : "2.5",
+    "option3" : "2",
+    "option4" : "3",
+    "option5" : "TypeError",
+    "option6" : "5 / 2",
+    "option7" : "0.4",
+    "option8" : "1",
+    "question" : "What is the output of the following code snippet?\n\nprint(5 / 2)"
+  }, {
+    "answer" : "tib:orcim olleH",
+    "hint" : "Reverse it",
+    "option1" : "tib:orcim olleH",
+    "option2" : "Hello micro:bi",
+    "option3" : "ello micro:bit",
+    "option4" : "Hlomcobt",
+    "option5" : "SyntaxError",
+    "option6" : "H",
+    "option7" : "t",
+    "option8" : "Hello micro:bi",
+    "question" : "What is the output of the following code snippet?\n\nprint(\"Hello micro:bit\"[::-1])"
+  } ],
+  "Strings" : [ "\"hello world\"", "\"hello, world\"", "\"Hello World\"", "\"Hello, world!\"", "\"Hello, world?\"", "\"Hello! world!?\"", "\"Hello! world?\"", "\"Helloworld?\"", "\"helloworld?\"", "\"HelloWorld?\"", "\"Goodbye, world.\"", "\"hello, world.\"", "\"helloworld\"", "\"world, hello!\"", "\"HELLO WORLD\"", "\"hello! world!\"", "\"Hello, Earth!\"", "\"hELLO wORLD\"", "\"World, hello!\"", "\"worldHello\"", "\"WORLDHELLO\"", "\"hello\"", "\"world\"", "\"goodbye\"", "\"Bye, world!\"", "\"Hllo, wrld!\"", "\"hllo wrld\"", "\"h e l l o\"", "\"w o r l d\"", "\"bye!world!\"", "\"Hello, world,\"", "\"hello, world,\"", "\"ByeWorld\"", "\"PythoN\"", "\"Python\"", "\"Python!\"", "\"python\"", "\"pYTHON\"", "\"PyThOn\"", "\"pYtHoN\"", "\"Programming\"", "\"programming\"", "\"progrmming\"", "\"programmng\"", "\"prgramming\"", "\"prgrmmng\"", "\"Programming!\"", "\"Programming!!\"", "\"programming?\"", "\"Programming?\"" ]
+}

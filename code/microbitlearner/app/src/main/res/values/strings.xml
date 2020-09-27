@@ -1,0 +1,45 @@
+<resources>
+    <!-- General -->
+    <string name="app_name">micro:bit learner</string>
+    <string name="about_text">micro:bit learner is an Android mobile app developed by James Farrelly and Emily Whyte for their Third Year Project in DCU.\n\nThe aim of micro:bit learner is to help students who are learning to program by using micro:bits in school. The app is currently focused on programming in Python but we hope to add JavaScript at a later stage.\n\nThe micro:bit is a pocket-sized computer that can be programmed to do many things. It has a variety of features from buttons and pins to LEDs and an accelerometer.</string>
+    <string name="rules_text">Press the play button to go to the menu and choose a quiz! There are currently three types for you to try out and test your skills.\n\nFor each question you answer, you will be told if you were right or wrong. You will also see your total result when you answer all of the questions.\n\nTyping questions: you will be asked to either type in text (words) or digits (numbers) to answer the quiz questions.\n\nMultiple Choice Quiz: Read a general python programming question then select one of the 4 possible answers and confirm to move on to the next question.\n\nCode Snippets Quizzes: You will see a question with a randomly generated Python code snippet under it. Read the snippet to answer the question and press the correct answer. You will then move onto the next question about a new snippet. This quiz type has 3 different difficulties so you can test your programming abilities as they progress.\n\nCode Error Quizzes: Read the code snippet (a short Python program) and find the error, if there is any. Click on the answer you think is right to select it. Press the submit button to move onto the next question.\n\nHint Buttons: If you are struggling with a question, you can press a hint button to display some help.</string>
+    <string name="rules">Rules</string>
+    <string name="about">About</string>
+    <string name="title_about_learner">About micro:bit learner</string>
+    <string name="title_learner_rules">micro:bit learner rules</string>
+    <string name="submit">Submit</string>
+    <string name="question_title">Question %1$d (%1$d/%2$d)</string>
+    <string name="digit">digit</string>
+    <string name="text">text</string>
+    <string name="done">Done</string>
+    <string name="need_a_hint">Need a hint?</string>
+    <string name="hint">hint</string>
+    <string name="question_goes_here">Question goes here</string>
+    <string name="quiz_result">Quiz result</string>
+    <string name="enter_your_answer">Enter your answer</string>
+    <string name="answer">Answer</string>
+    <string name="play">Play</string>
+
+    <!-- Activity names -->
+    <string name="topic1">Typing questions quiz</string>
+    <string name="topic2">Multiple Choice Quiz</string>
+    <string name="topic3">Code Snippets Quiz: Easy</string>
+    <string name="topic4">Code Snippets Quiz: Medium</string>
+    <string name="topic5">Code Snippets Quiz: Hard</string>
+    <string name="topic6">Code Errors Quiz: Easy</string>
+    <string name="topic7">Code Errors Quiz: Hard</string>
+
+    <!-- Type answer quiz -->
+    <string name="topic1_q1">What is printed by this code?\n\nprint(\"hello\")</string>
+    <string name="topic1_q1_ans">hello</string>
+    <string name="topic1_q1_hint">Strings are contained within quotation marks.</string>
+    <string name="topic1_q2">What number will this code print?\n\nprint(len(\"hello world\"))</string>
+    <string name="topic1_q2_ans">11</string>
+    <string name="topic1_q2_hint">Spaces are included when calculating the length of a string.</string>
+    <string name="topic1_q3">What will this code print?\n\nx = \"hello\"\nprint(\"world\", x)</string>
+    <string name="topic1_q3_ans">world hello</string>
+    <string name="topic1_q3_hint">A , will add a space between two string values.</string>
+    <string name="topic1_q4">What number will this code print?\n\nprint(6 % 2)</string>
+    <string name="topic1_q4_ans">0</string>
+    <string name="topic1_q4_hint">A % B gives the remainder of dividing A by B</string>
+</resources>
